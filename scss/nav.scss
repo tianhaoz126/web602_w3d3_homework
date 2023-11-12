@@ -1,1 +1,13 @@
-/* Nest Nav */
+header {
+    background-color: $white;
+    nav {
+      ul {
+        list-style: none;
+        li {
+          display: inline;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,13 @@
+@mixin button-style {
+    background-color: $gold;
+    border: none;
+    padding: 10px 20px;
+    color: $white;
+    font-family: Arial, Helvetica, Sans-Serif;
+    cursor: pointer;
+    
+    &:hover {
+      background-color: darken($gold, 10%);
+    }
+  }
+  
